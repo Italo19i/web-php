@@ -35,7 +35,7 @@
         <li><?=$bullet?></li>
       <?php } ?>
     </ul>
-    <p>Hoje eh <?= date("d/m/Y") ?>, depois de hoje eh <?= (date("d")+1).'/'.date("m/Y")?></p>
+    <p>Hoje eh <?= date("d/m/Y") ?>, depois de hoje eh <?= (date("d")+1).date("/m/Y")?></p>
     <p>Quanto da mil meu com mil teu? <?=sum(1000,1000)?></p>
   </body>
 </html>
